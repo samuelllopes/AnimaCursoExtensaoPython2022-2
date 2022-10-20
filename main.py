@@ -12,8 +12,9 @@ idade = 19
 #Exibir o meu nome (que está dentro da variável nome)
 #Quando quiser concatenar valores!! 
 
-print("My age is "+str(idade))
-       
+print("My name is " +nome)
+print(f"My age is {idade}\n")  
+
 
 '''
 
