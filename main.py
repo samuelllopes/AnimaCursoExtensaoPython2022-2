@@ -30,3 +30,11 @@ def calcular_imposto(preco_produto):
 preco = 299
 imposto = calcular_imposto(preco)
 print(imposto)
+
+# Valores com for
+
+valores = [414 , 31.51, 51.14, 65.24, 21.41]
+
+for valor in valores:
+      imposto = calcular imposto(valor)
+      print(imposto)
