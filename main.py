@@ -8,14 +8,14 @@ while(contador <= 1):
 
 #criação de funções
 
-preco = 1999.90
+preco = 2380.98
 
 #Calcular apenas 5% de imposto, guardar na variavel imposto e exibir na tela
-imposto = preco * 0.05
+imposto = preco * 1
 print(imposto)
 
-preco2 = 100
-imposto2 = preco2 * 0.05
+preco2 = 60
+imposto2 = preco2 * 2
 print(imposto2)
 
 #Criar uma função calcular_imposto() que calcular um imposto de 5% e retorna a quem pediu...
