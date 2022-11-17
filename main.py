@@ -1,40 +1,21 @@
-## Aula 3 - Laços
+# Meu primeiro projeto Python!! 
+#
+# print() = comando de saida 
+print("Hello Word!!")
 
-contador = 1
+# Quando quiser guardar uma String!(fase)
+nome = "Samuel Lopes"
 
-while(contador <= 1):
-  print(contador)
-  contador = contador +1
+# Quando quiser guardar número inteiro 
+idade = 19 
 
-#criação de funções
+#Exibir o meu nome (que está dentro da variável nome)
+#Quando quiser concatenar valores!! 
 
-preco = 2380.98
+print("My name is " +nome)
+print(f"My age is {idade}\n")  
 
-#Calcular apenas 5% de imposto, guardar na variavel imposto e exibir na tela
-imposto = preco * 1
-print(imposto)
 
-preco2 = 60
-imposto2 = preco2 * 2
-print(imposto2)
-
-#Criar uma função calcular_imposto() que calcular um imposto de 5% e retorna a quem pediu...
-#Isso é a declaração da função (Como ela funciona)
-
-def calcular_imposto(preco_produto):
-  imposto = preco_produto * 0.05
-  return imposto
-
-#Aqui é o uso... aqui é imposto a calcular.. e exibir na tela
-  
-preco = 299
-imposto = calcular_imposto(preco)
-print(imposto)
-
-# Valores com for
-
-valores = [414 , 31.51, 51.14, 65.24, 21.41]
-
-for valor in valores:
-      imposto = calcular imposto(valor)
-      print(imposto)
+'''
+Comentario em Bloco  
+'''
